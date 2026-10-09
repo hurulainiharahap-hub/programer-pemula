@@ -1,0 +1,64 @@
+/* Atur dasar tampilan halaman */
+body {
+    background-color: #1a1b3b; /* Warna dasar biru navy */
+    color: #ffffff; /* Teks putih */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Kotak pembungkus utama ala tampilan HP */
+.container-landing {
+    text-align: center;
+    width: 360px;
+    padding: 20px;
+}
+
+/* Styling teks judul atas */
+.container-landing h2 {
+    color: #e5b87f; /* Warna kuning emas/mocca */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Styling ukuran gambar dompet */
+.box-gambar img {
+    width: 170px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Styling teks SakuMu */
+.container-landing h1 {
+    color: #e5b87f;
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+/* Styling paragraf slogan */
+.container-landing p {
+    font-size: 13px;
+    color: #d1d1d1;
+    margin-bottom: 35px;
+    padding: 0 20px;
+}
+
+/* Styling Tombol Masuk Sekarang */
+.btn-masuk {
+    display: inline-block;
+    background-color: #c48b43; /* Warna tombol cokelat emas */
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 0;
+    width: 80%;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btn-masuk:hover {
+    background-color: #b07936;
+}
